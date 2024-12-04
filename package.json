@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:github-action": "node dist/github-action/server/server.mjs",
-    "build:prod": "ng build --configuration production --base-href https://sivakumar55.github.io/angular-github-actions/",
+    "build:prod": "ng build --configuration production --base-href /github-action/",
     "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
